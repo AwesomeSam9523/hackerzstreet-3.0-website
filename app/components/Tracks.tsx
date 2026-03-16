@@ -7,9 +7,9 @@ import Image from "next/image";
 import HealthcareIcon from "@/public/trackIcons/healthcare.svg";
 import FintechIcon from "@/public/trackIcons/fintech.svg";
 import EdtechIcon from "@/public/trackIcons/edtech.svg";
-import AgricultureIcon from "@/public/trackIcons/Agriculture.png";
+import AgricultureIcon from "@/public/trackIcons/agriculture.png";
 import EnviromentIcon from "@/public/trackIcons/environmental.png";
-import DisasterManagement from "@/public/trackIcons/DisasterManagement.png";
+import DisasterManagement from "@/public/trackIcons/disaster-management.png";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500"],
