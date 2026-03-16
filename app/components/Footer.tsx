@@ -1,8 +1,8 @@
 import Image from "next/image";
-import HS_Footer from "@/public/hs_footer.svg";
 import CS_Logo from "@/public/ieee_cs.svg";
 import { CiGlobe } from "react-icons/ci";
 import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import { FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -13,6 +13,22 @@ const poppins = Poppins({
   display: "swap",
 });
 
+const yapari = localFont({
+  src: [
+    {
+      path: "../../public/fonts/YapariTrial-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/YapariTrial-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  display: "swap",
+});
+
 const Footer = () => {
   return (
     <footer
@@ -20,19 +36,22 @@ const Footer = () => {
       className="bg-gradient-to-t from-[#FFA300] to-black px-5 py-8 text-white md:px-10"
     >
       <div className="flex w-full flex-wrap items-center gap-8 md:grid md:grid-cols-2 lg:gap-0">
-        <div className="flex w-full flex-wrap items-center justify-evenly md:gap-8 md:px-8">
-          <Image
-            src={HS_Footer}
-            alt={"HackerzStreet 4.0"}
-            className={"h-11 w-auto md:h-auto"}
-          />
-          <span className="text-5xl font-light md:text-8xl md:font-bold">
+        <div className="flex w-full flex-wrap items-center justify-center gap-1 md:justify-evenly md:gap-8 md:px-8">
+          <p
+            className={`${yapari.className} -ml-[1.2rem] h-[86px] w-[264px] text-[35.85px] font-bold leading-[100%] tracking-[0] text-white md:-ml-[1.2rem]`}
+          >
+            <span className="block">HACKERZ</span>
+            <span className="block whitespace-nowrap">
+              STREET 4.0<span className="md:hidden">/</span>
+            </span>
+          </p>
+          <span className="hidden text-5xl font-light md:ml-5 md:inline md:text-8xl md:font-bold">
             /
           </span>
           <Image
             src={CS_Logo}
             alt="IEEE Computer Society MUJ"
-            className={"h-11 w-auto md:h-auto"}
+            className={"mx-auto mt-1 h-11 w-auto basis-full md:mx-0 md:mt-0 md:basis-auto md:h-auto"}
           />
         </div>
         <div className="flex w-full flex-row justify-evenly md:grid md:grid-cols-2">

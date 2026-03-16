@@ -77,7 +77,7 @@ function Tracks() {
     {
       title: "Agriculture",
       description:
-        "",
+        "Empower farmers and strengthen food systems with smart technology. Innovate in areas like precision farming, supply chains, and sustainable agriculture.",
       icon: AgricultureIcon,
     },
     {
@@ -87,9 +87,9 @@ function Tracks() {
       icon: EnviromentIcon,
     },
     {
-      title: "Networking and Communication",
+      title: "Disaster Management",
       description:
-        "Enhance global connectivity through efficient and seamless communication systems.",
+        "Develop solutions that help communities prepare for and respond to disasters. Use technology to improve early warnings, coordination, and crisis response.",
       icon: DisasterManagement,
     },
   ];
