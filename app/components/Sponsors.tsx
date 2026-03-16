@@ -5,8 +5,8 @@ import Sponsor4 from "@/public/sponsors/sponsor4.svg";
 // import Sponsor5 from "@/public/sponsors/sponsor5.svg";
 // import Sponsor6 from "@/public/sponsors/sponsor6.svg";
 // import Sponsor7 from "@/public/sponsors/sponsor7.svg";
-import Sponsor8 from "@/public/sponsors/sponsor8.svg";
-import Sponsor9 from "@/public/sponsors/sponsor9.svg";
+//import Sponsor8 from "@/public/sponsors/sponsor8.svg";
+//import Sponsor9 from "@/public/sponsors/sponsor9.svg";
 import Image from "next/image";
 
 function Sponsors() {
@@ -18,8 +18,8 @@ function Sponsors() {
     // Sponsor5,
     // Sponsor6,
     // Sponsor7,
-    Sponsor8,
-    Sponsor9,
+   // Sponsor8,
+   // Sponsor9,
   ];
   return (
     <div

@@ -68,15 +68,15 @@ const schedule = [
     text: "Problem statements are released at the website and the hackathon begins.",
   },
   {
-    time: "12:00 AM",
+    time: "10:00 PM",
     text: "Mentorship round 1 begins.",
   },
   {
-    time: "3:00 AM",
+    time: "2:00 AM",
     text: "Mentorship round 2 begins.",
   },
   {
-    time: "5:00 AM",
+    time: "4:00 AM",
     text: "Submission link is released to all the teams.",
   },
   {

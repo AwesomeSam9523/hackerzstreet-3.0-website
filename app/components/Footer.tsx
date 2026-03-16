@@ -42,7 +42,8 @@ const Footer = () => {
           >
             <span className="block">HACKERZ</span>
             <span className="block whitespace-nowrap">
-              STREET 4.0<span className="md:hidden">/</span>
+              STREET <span className="text-[0.6em]">4.0</span>
+              <span className="md:hidden">/</span>
             </span>
           </p>
           <span className="hidden text-5xl font-light md:ml-5 md:inline md:text-8xl md:font-bold">
