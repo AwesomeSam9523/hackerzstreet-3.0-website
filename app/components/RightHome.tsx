@@ -1,7 +1,7 @@
 "use client";
 import { FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function RightSection() {
   const [countdown, setCountdown] = useState({
@@ -10,25 +10,33 @@ function RightSection() {
     seconds: 0,
   });
   const [elapsed, setElapsed] = useState(false);
-  const targetDate = new Date("2026-03-21T15:00:00");
+  const targetDate = useRef(
+    new Date(Date.now() + (112 * 3600 + 57 * 60) * 1000),
+  );
+
   const calculateCountdown = () => {
     const now = new Date();
-    const difference = targetDate.getTime() - now.getTime();
+    const difference = targetDate.current.getTime() - now.getTime();
+
     if (difference <= 0) {
       setElapsed(true);
       setCountdown({ hours: 0, minutes: 0, seconds: 0 });
       return;
     }
+
     const totalSeconds = Math.floor(difference / 1000);
-    const hours = Math.floor((totalSeconds % 86400) / 3600);
+    const hours = Math.floor(totalSeconds / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
     const seconds = totalSeconds % 60;
 
     setCountdown({ hours, minutes, seconds });
   };
 
-  setTimeout(calculateCountdown, 1);
-  setInterval(calculateCountdown, 1000);
+  useEffect(() => {
+    calculateCountdown();
+    const intervalId = setInterval(calculateCountdown, 1000);
+    return () => clearInterval(intervalId);
+  }, []);
 
   const formatCountdown = (value: number) => {
     return value < 10 ? `0${value}` : value;
