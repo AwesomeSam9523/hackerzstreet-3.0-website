@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex w-full flex-wrap items-center justify-evenly md:gap-8 md:px-8">
           <Image
             src={HS_Footer}
-            alt={"HackerzStreet 3.0"}
+            alt={"HackerzStreet 4.0"}
             className={"h-11 w-auto md:h-auto"}
           />
           <span className="text-5xl font-light md:text-8xl md:font-bold">
@@ -40,19 +40,14 @@ const Footer = () => {
             className={`flex flex-col gap-4 border-white pr-4 text-center md:border-r-2 md:px-8 lg:border-l-2 ${poppins.className} justify-evenly py-3`}
           >
             <div>
-              <p className="text-xs font-bold md:text-2xl">Rishi Joshi</p>
-              <p className={"text-tiny md:text-base"}>+91 95699 13103</p>
+              <p className="text-xs font-bold md:text-2xl">Samaksh Gupta</p>
+              <p className={"text-tiny md:text-base"}>+91 9871340076</p>
               <p className={"text-tiny md:text-base"}>Chairperson</p>
             </div>
             <div>
-              <p className="text-xs font-bold md:text-2xl">Pranav Bhardwaj</p>
-              <p className={"text-tiny md:text-base"}>+91 99995 58266</p>
+              <p className="text-xs font-bold md:text-2xl">Tamanna Yadav</p>
+              <p className={"text-tiny md:text-base"}>+91 8860514740</p>
               <p className={"text-tiny md:text-base"}>Vice-Chairperson</p>
-            </div>
-            <div>
-              <p className="text-xs font-bold md:text-2xl">Mohit Hingorani</p>
-              <p className={"text-tiny md:text-base"}>+91 9811033533</p>
-              <p className={"text-tiny md:text-base"}>General Secretary</p>
             </div>
           </div>
           <div

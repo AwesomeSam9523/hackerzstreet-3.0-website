@@ -60,11 +60,11 @@ const poppins = Poppins({
 
 const schedule = [
   {
-    time: "10:00 AM",
+    time: "03:00 PM",
     text: "Participants report to the venue given and get themselves checked-in.",
   },
   {
-    time: "11:00 AM",
+    time: "04:00 PM",
     text: "Problem statements are released at the website and the hackathon begins.",
   },
   {
@@ -135,8 +135,8 @@ function Schedule() {
 
         <div className={"flex flex-row"}>
           <div className={"*:font-yapari flex flex-col *:font-bold"}>
-            <label className={"text-ieeeyellow text-4xl"}>12</label>
-            <label className={"text-xl text-white"}>April:</label>
+            <label className={"text-ieeeyellow text-4xl"}>21</label>
+            <label className={"text-xl text-white"}>MARCH:</label>
           </div>
           <ScheduleBox time={schedule[1].time} text={schedule[1].text} />
           <RightArrow />
@@ -165,8 +165,8 @@ function Schedule() {
 
         <div className={"flex flex-row"}>
           <div className={"*:font-yapari flex flex-col *:font-bold"}>
-            <label className={"text-ieeeyellow text-4xl"}>13</label>
-            <label className={"text-xl text-white"}>April:</label>
+            <label className={"text-ieeeyellow text-4xl"}>22</label>
+            <label className={"text-xl text-white"}>MARCH:</label>
           </div>
           <ScheduleBox time={schedule2[0].time} text={schedule2[0].text} />
           <RightArrow />
@@ -193,8 +193,8 @@ function Schedule() {
               "*:font-yapari flex flex-row gap-2 *:text-xl *:font-bold"
             }
           >
-            <label className={"text-ieeeyellow"}>12</label>
-            <label className={"text-xl text-white"}>April</label>
+            <label className={"text-ieeeyellow"}>21</label>
+            <label className={"text-xl text-white"}>MARCH</label>
           </div>
           <ScheduleBox time={schedule[1].time} text={schedule[1].text} />
           <DownArrow />
@@ -228,8 +228,8 @@ function Schedule() {
               "*:font-yapari flex flex-row gap-2 *:text-xl *:font-bold"
             }
           >
-            <label className={"text-ieeeyellow"}>13</label>
-            <label className={"text-xl text-white"}>April</label>
+            <label className={"text-ieeeyellow"}>22</label>
+            <label className={"text-xl text-white"}>MARCH</label>
           </div>
           <ScheduleBox time={schedule2[0].time} text={schedule2[0].text} />
           <DownArrow />

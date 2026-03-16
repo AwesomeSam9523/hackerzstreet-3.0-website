@@ -93,7 +93,7 @@ const Navbar = () => {
 
       {/* register button for desktop */}
       <a
-        href="https://unstop.com/p/hackerzstreet-30-ieee-computer-society-muj-1458331"
+        href="https://cs.ieeemuj.com/reg/hs"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -138,7 +138,7 @@ const Navbar = () => {
 
         {/* mobile REGISTER Button */}
         <a
-          href="https://unstop.com/p/hackerzstreet-30-ieee-computer-society-muj-1458331"
+          href="https://cs.ieeemuj.com/reg/hs"
           target="_blank"
           rel="noopener noreferrer"
         >

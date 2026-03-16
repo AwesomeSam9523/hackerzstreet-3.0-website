@@ -51,10 +51,10 @@ function HomePage() {
         {/* Left Section */}
         <div className="flex flex-col items-start space-y-4 pt-10">
           <span className="font-yapari text-4xl font-bold md:text-6xl">
-            3.0
+            4.0
           </span>
           <p className={`text-tiny md:text-base ${poppins.className}`}>
-            Hackerzstreet 3.0, set to ignite creativity and innovation – an
+            Hackerzstreet 4.0, set to ignite creativity and innovation – an
             intense 24-hour coding marathon packed with excitement and
             collaboration. This event features a single round where participants
             delve into diverse technical themes, each presenting unique

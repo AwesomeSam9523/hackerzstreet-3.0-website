@@ -5,17 +5,17 @@ import Footer from "@/app/components/Footer";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "HackerzStreet 3.0",
+  title: "HackerzStreet 4.0",
   description: "Largest hackathon of IEEE MUJ with a prize pool of 60K+",
   keywords:
     "hackathon, IEEEMUJ, IEEECS, hackerz, hackerzstreet, coding, programming, tech",
   openGraph: {
-    title: "HackerzStreet 3.0",
+    title: "HackerzStreet 4.0",
     description: "Largest hackathon of IEEE MUJ with a prize pool of 60K+",
     url: "https://hackerzstreet.ieeemuj.com",
     images:
       "https://images.prismic.io/ieeemuj/Z-XOindAxsiBwAyV_hzsunstopposter.png?auto=format,compress",
-    siteName: "HackerzStreet 3.0",
+    siteName: "HackerzStreet 4.0",
     locale: "en_US",
     type: "website",
   },

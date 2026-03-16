@@ -10,7 +10,7 @@ function RightSection() {
     seconds: 0,
   });
   const [elapsed, setElapsed] = useState(false);
-  const targetDate = new Date("2025-04-12T05:30:00Z");
+  const targetDate = new Date("2026-03-21T15:00:00");
   const calculateCountdown = () => {
     const now = new Date();
     const difference = targetDate.getTime() - now.getTime();
@@ -69,13 +69,13 @@ function RightSection() {
 
       <div className="flex w-32 flex-col items-center justify-center rounded-xl border-2 border-dashed border-white/50 p-2 md:w-56 md:p-4">
         <p className="text-ieeeyellow text-3xl md:text-5xl">
-          12 <span className={"opacity-30"}>-</span>
+          21 <span className={"opacity-30"}>-</span>
         </p>
         <div className="bg-ieeeyellow mt-2 mb-4 h-[0.3rem] w-[85%] px-2 opacity-30 md:mt-2 md:mb-4 md:h-[0.5rem] md:w-[78%]"></div>
         <p className="text-ieeeyellow text-3xl md:text-5xl">
-          <span className={"opacity-30"}>-</span> 13
+          <span className={"opacity-30"}>-</span> 22
         </p>
-        <p className="text-center text-xl md:text-left">APRIL 2025</p>
+        <p className="text-center text-xl md:text-left">MARCH 2026</p>
       </div>
 
       <div className="*:hover:bg-ieeeyellow hidden w-56 grid-cols-2 gap-2 *:flex *:cursor-pointer *:flex-row *:items-center *:justify-center *:rounded-xl *:border-2 *:border-dashed *:border-white/50 *:p-2 *:transition-all *:duration-300 *:ease-in-out *:hover:text-black md:grid">
