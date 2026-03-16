@@ -60,50 +60,46 @@ const poppins = Poppins({
 
 const schedule = [
   {
-    time: "10:00 AM",
+    time: "03:00 PM",
     text: "Participants report to the venue given and get themselves checked-in.",
   },
   {
-    time: "11:00 AM",
+    time: "04:00 PM",
     text: "Problem statements are released at the website and the hackathon begins.",
   },
   {
-    time: "12:00 PM",
-    text: "Participants are provided with refreshments.",
-  },
-  {
-    time: "3:00 PM",
+    time: "12:00 AM",
     text: "Mentorship round 1 begins.",
   },
   {
-    time: "6:00 PM",
+    time: "3:00 AM",
     text: "Mentorship round 2 begins.",
   },
   {
-    time: "8:00 PM",
+    time: "5:00 AM",
     text: "Submission link is released to all the teams.",
   },
   {
-    time: "11:00 PM",
+    time: "6:00 AM",
     text: "Round 1 officially ends and the submission link is closed.",
   },
   {
-    time: "06:00 AM",
+    time: "10:00 AM",
     text: "Round 1 results are announced.",
   },
 ];
 
 const schedule2 = [
   {
-    time: "10:00 AM",
+    time: "11:00 AM",
     text: "Participants report to the venue given.",
   },
   {
-    time: "11:00 AM",
+    time: "12:00 PM",
     text: "Round 2 starts.",
   },
   {
-    time: "2:00 PM",
+    time: "5:00 PM",
     text: "Round 2 ends.",
   },
 ];
@@ -135,8 +131,8 @@ function Schedule() {
 
         <div className={"flex flex-row"}>
           <div className={"*:font-yapari flex flex-col *:font-bold"}>
-            <label className={"text-ieeeyellow text-4xl"}>12</label>
-            <label className={"text-xl text-white"}>April:</label>
+            <label className={"text-ieeeyellow text-4xl"}>21</label>
+            <label className={"text-xl text-white"}>MARCH:</label>
           </div>
           <ScheduleBox time={schedule[1].time} text={schedule[1].text} />
           <RightArrow />
@@ -150,9 +146,9 @@ function Schedule() {
 
           <ScheduleBox time={schedule[4].time} text={schedule[4].text} />
           <LeftArrow />
-          <ScheduleBox time={schedule[6].time} text={schedule[6].text} />
+          <ScheduleBox time={schedule[5].time} text={schedule[5].text} />
           <LeftArrow />
-          <ScheduleBox time={schedule[7].time} text={schedule[7].text} />
+          <ScheduleBox time={schedule[6].time} text={schedule[6].text} />
         </div>
 
         <label
@@ -165,8 +161,8 @@ function Schedule() {
 
         <div className={"flex flex-row"}>
           <div className={"*:font-yapari flex flex-col *:font-bold"}>
-            <label className={"text-ieeeyellow text-4xl"}>13</label>
-            <label className={"text-xl text-white"}>April:</label>
+            <label className={"text-ieeeyellow text-4xl"}>22</label>
+            <label className={"text-xl text-white"}>MARCH:</label>
           </div>
           <ScheduleBox time={schedule2[0].time} text={schedule2[0].text} />
           <RightArrow />
@@ -193,8 +189,8 @@ function Schedule() {
               "*:font-yapari flex flex-row gap-2 *:text-xl *:font-bold"
             }
           >
-            <label className={"text-ieeeyellow"}>12</label>
-            <label className={"text-xl text-white"}>April</label>
+            <label className={"text-ieeeyellow"}>21</label>
+            <label className={"text-xl text-white"}>MARCH</label>
           </div>
           <ScheduleBox time={schedule[1].time} text={schedule[1].text} />
           <DownArrow />
@@ -209,9 +205,9 @@ function Schedule() {
           ></div>
           <ScheduleBox time={schedule[4].time} text={schedule[4].text} />
           <DownArrow />
-          <ScheduleBox time={schedule[6].time} text={schedule[6].text} />
+          <ScheduleBox time={schedule[5].time} text={schedule[5].text} />
           <DownArrow />
-          <ScheduleBox time={schedule[7].time} text={schedule[7].text} />
+          <ScheduleBox time={schedule[6].time} text={schedule[6].text} />
         </div>
 
         <label
@@ -228,8 +224,8 @@ function Schedule() {
               "*:font-yapari flex flex-row gap-2 *:text-xl *:font-bold"
             }
           >
-            <label className={"text-ieeeyellow"}>13</label>
-            <label className={"text-xl text-white"}>April</label>
+            <label className={"text-ieeeyellow"}>22</label>
+            <label className={"text-xl text-white"}>MARCH</label>
           </div>
           <ScheduleBox time={schedule2[0].time} text={schedule2[0].text} />
           <DownArrow />

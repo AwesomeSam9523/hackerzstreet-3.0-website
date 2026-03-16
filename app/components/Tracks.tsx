@@ -7,9 +7,9 @@ import Image from "next/image";
 import HealthcareIcon from "@/public/trackIcons/healthcare.svg";
 import FintechIcon from "@/public/trackIcons/fintech.svg";
 import EdtechIcon from "@/public/trackIcons/edtech.svg";
-import BlockchainIcon from "@/public/trackIcons/blockchain.svg";
-import Environmental from "@/public/trackIcons/environmental.png";
-import NetworkingIcon from "@/public/trackIcons/networking.svg";
+import AgricultureIcon from "@/public/trackIcons/agriculture.png";
+import EnviromentIcon from "@/public/trackIcons/environmental.png";
+import DisasterManagement from "@/public/trackIcons/disaster-management.png";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500"],
@@ -75,22 +75,22 @@ function Tracks() {
       icon: EdtechIcon,
     },
     {
-      title: "Blockchain",
+      title: "Agriculture",
       description:
-        "Leverage decentralized technologies for transparency, security, and trust.",
-      icon: BlockchainIcon,
+        "Empower farmers and strengthen food systems with smart technology. Innovate in areas like precision farming, supply chains, and sustainable agriculture.",
+      icon: AgricultureIcon,
     },
     {
-      title: "Environmental Impact",
+      title: "Environment & Sustainibility",
       description:
         "Build tech-driven solutions to tackle sustainability and climate challenges.",
-      icon: Environmental,
+      icon: EnviromentIcon,
     },
     {
-      title: "Networking and Communication",
+      title: "Disaster Management",
       description:
-        "Enhance global connectivity through efficient and seamless communication systems.",
-      icon: NetworkingIcon,
+        "Develop solutions that help communities prepare for and respond to disasters. Use technology to improve early warnings, coordination, and crisis response.",
+      icon: DisasterManagement,
     },
   ];
 
